@@ -1,0 +1,26 @@
+{
+  "name": "private-trading-arcium",
+  "version": "1.0.0",
+  "description": "Private Trading Simulator with Arcium - Confidential compute powered trading application",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "arcium",
+    "private-trading",
+    "solana",
+    "confidential-compute",
+    "privacy"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/therowlingk/Private-Trading-Arcium.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
