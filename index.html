@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Private Trading Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🚀 Private Trading Simulator</h1>
+  <p class="subtitle">Confidential compute powered by Arcium</p>
+
+  <div class="card">
+    <input id="entry" placeholder="Entry Price">
+    <input id="exit" placeholder="Exit Price">
+    <input id="size" placeholder="Position Size">
+
+    <button onclick="calculate()">Run Private Compute</button>
+  </div>
+
+  <div class="result-card" id="resultBox">
+    <h2>Result</h2>
+    <p id="result">—</p>
+  </div>
+</div>
+
+<script src="crypto.js"></script>
+<script src="arcium.js"></script>
+<script src="solana.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
