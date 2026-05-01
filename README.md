@@ -66,6 +66,8 @@ This project simulates Arcium's confidential compute:
 ## Demo
 Shows how encrypted trading data can be computed privately.
 
+## Live Demo
+https://private-trading-arcium.vercel.app/
 ---
 
 Built for Arcium Privacy Challenge
